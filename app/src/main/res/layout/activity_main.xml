@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/SplashTheme"
+    android:background="@color/colorPurple"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </View>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textSize="100dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </View>
+<Button
+    android:id="@+id/mybtn_sign"
+    android:textColor="@color/colorWhite"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_width="291dp"
+    android:layout_gravity="center"
+    android:background="@color/colorBrightBlue"
+    android:layout_height="wrap_content"
+    android:text="@string/sign_up">
+
+</Button>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </View>
+
+        <Button
+            android:id="@+id/button_log_in"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:onClick="openlogin"
+            android:layout_width="291dp"
+            android:background="@color/colorTurqoiseGreen"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/log_in" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

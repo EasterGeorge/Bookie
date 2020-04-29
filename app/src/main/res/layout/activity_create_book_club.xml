@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPurple"
+    android:layout_height="match_parent"
+    tools:context=".CreateBookClubActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+<ImageView
+    android:layout_width="40dp"
+    android:src="@drawable/home"
+    android:clickable="true"
+    android:id="@+id/getHome"
+    android:layout_height="40dp">
+
+</ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="45dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="cursive"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/topic_create_book_club"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/name_of_book_club"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/book_club_type"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/book_genres"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/maximum_number_users"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite">
+
+        </TextView>
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </View>
+
+        <Button
+            android:id="@+id/button_create"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:background="@drawable/round_buttongreen"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:text="Create" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

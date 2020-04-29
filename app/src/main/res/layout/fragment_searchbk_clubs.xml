@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPurple">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <SearchView
+            android:id="@+id/search_book_clubs"
+            android:layout_width="318dp"
+            android:layout_height="40dp"
+            android:visibility="visible"
+            android:layout_marginEnd="56dp"
+            android:background="@color/colorWhite"
+            android:inputType="text"
+            android:queryHint="@string/search_bk"
+            />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            app:queryHint="@string/search_bk"
+            android:background="@color/colorWhite"
+            android:layout_width="291dp"
+            android:layout_height="61dp">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <TextView
+            android:id="@+id/text_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:visibility="gone" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:text="Top Book Clubs"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="1. Maabara"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Nostalgia"
+                android:padding="5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="3. Minded"
+                android:textColor="@color/colorWhite"
+                android:textSize="17dp"
+                android:padding="8dp">
+
+            </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:text="Suggested Book Clubs"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="1. Maabara"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Nostalgia"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="3. Minded"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp"
+            android:padding="8dp">
+
+        </TextView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+</View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/create_book_club"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <ImageView
+                android:clickable="true"
+                android:id="@+id/create_book_club"
+                android:src="@drawable/adding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
